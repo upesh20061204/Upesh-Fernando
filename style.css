@@ -1,0 +1,64 @@
+#navbar{
+    width: 100vw;
+    height: 10%;
+    background-color: transparent;
+
+    position: fixed;
+}
+#logo{
+    height: 70px;
+    position:absolute;
+}
+
+#buttons{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5%;
+    margin: 0 auto;
+    font-family: "Libre Baskerville", serif;
+}
+
+#button {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    position: relative;
+    padding-bottom: 5px; /* Add padding to accommodate the underline */
+}
+
+#button::before {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Position underline at the bottom of the button */
+    left: 0;
+    width: 0;
+    height: 2px;
+    width: 2px;;
+    background: white;
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+#button:hover::before {
+    width: 100%; /* Expand the underline to the full width on hover */
+}
+body{
+   
+    
+
+}
+#back{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+
+}
+
+#backgroundimg{
+    height: 100%;
+    width: 100%;
+}
